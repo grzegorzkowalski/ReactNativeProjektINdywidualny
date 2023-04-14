@@ -5,6 +5,7 @@ import Surname from "./components/Surname";
 import Boxes from "./components/Boxes";
 import Calendar from "./components/Calendar";
 import Map from "./components/Map";
+import Pizza from "./components/Pizza";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Boxes />
       <Calendar />
       <Map />
+      <Pizza />
       <StatusBar style="auto" />
     </View>
   );
