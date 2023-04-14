@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Name from "./components/Name";
 import Surname from "./components/Surname";
+import Boxes from "./components/Boxes";
+import Calendar from "./components/Calendar";
+import Map from "./components/Map";
 
 export default function App() {
   return (
@@ -10,6 +13,9 @@ export default function App() {
       <Text>Test WWSI 2023</Text>
       <Name name="Grzegorz 2" />
       <Surname />
+      <Boxes />
+      <Calendar />
+      <Map />
       <StatusBar style="auto" />
     </View>
   );

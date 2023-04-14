@@ -11,3 +11,7 @@ const Name = (props) => {
 };
 
 export default Name;
+
+//Zadanie 2
+// Stwórz komponent funkcyjny, w którym utworzysz 3 komponenty
+// funkcyjne z kwadratami różnych kolorów. Do tego każdy z nich ma mieć ustawiony margines na 10px.
