@@ -10,7 +10,7 @@ import {
   SafeAreaView,
 } from "react-native";
 
-const API_Key = "wstaw tu swój klucz API";
+const API_Key = "632b95e80b7ceba4c48c0a574ef5acf4";
 
 const API_URL = `http://api.countrylayer.com/v2/all?access_key=${API_Key}`;
 
@@ -33,6 +33,7 @@ export default function App() {
   const renderItem = ({ item }) => (
     <View style={styles.item}>
       <Text style={styles.title}>{item.name}</Text>
+      <Text>Stolica: {item.capital}</Text>
       <Image
           source={`https://www.worldometers.info/img/flags/${(item.alpha2Code).toLowerCase()}-flag.gif`}
           style={{width: 45, height:30}}
